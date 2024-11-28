@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./output.css">
+  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body class="flex flex-col gap-5">
+  <!-- main section -->
+  <section class=" flex flex-col gap-5 ">
+    <!-- header section -->
+    <header class="flex flex-row justify-between py-4 sticky mx-32">
+      <div class="flex grow items-center">
+        <img class="h-10" src="/asset/png-icons/logo-hapdays.png" alt="logo">
+      </div>
+      <div class="flex grow justify-center items-center font-noto font-medium text-xl">
+        <ul class="list-none flex gap-6 font-normal text-base text-black-2">
+          <li>Home</li>
+          <li>Package</li>
+          <li>Mytrips</li>
+          <li>Contact</li>
+          <li>About</li>
+        </ul>
+      </div>
+      <div class="flex flex-row grow justify-end items-center gap-4">
+        <img class="w-7" src="/asset/icon/Internet.svg" alt="language">
+        <div class="rounded-full overflow-hidden bg-cover">
+          <img class="w-17" src="/asset/Profile-img/profile-image.jpg" alt="profile">
+        </div>
+      </div>
+    </header>
+    <!-- Search Main service section -->
+    <section
+      class="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-2 lg:grid-cols-7 border-[0.6px] border-Gray-3 p-3 rounded-2xl gap-3 font-noto mx-16">
+      <div class="grow flex flex-row gap-2 items-center bg-gray-100 rounded-lg px-3 py-2">
+        <img class="h-6" src="/asset/png-icons/hap-icon.png" alt="icon">
+        <div class="flex flex-col">
+          <p class="text-sm font-semibold mt-[-4px] text-blac4-2 ">What</p>
+          <p class="text-xs text-Gray-6 mt-2-4px]">trip</p>
+        </div>
+      </div>
+      <div class="grow flex flex-row gap-2 items-center bg-gray-100 rounded-lg px-3 py-2">
+        <img class="h-6" src="/asset/png-icons/location-icon.png" alt="icon">
+        <div class="flex flex-col">
+          <p class="text-sm font-semibold text-black-2  mt-[-4px]">Where from</p>
+          <p class="text-xs text-Gray-6  mt-[-2px]">destination</p>
+        </div>
+      </div>
+      <div class="grow flex flex-row gap-2 items-center bg-gray-100 rounded-lg px-3 py-2">
+        <img class="h-6" src="/asset/png-icons/location-icon.png" alt="icon">
+        <div class="flex flex-col">
+          <p class="text-sm font-semibold text-black-2  mt-[-4px]">Where to</p>
+          <p class="text-xs text-Gray-6  mt-[-2px]">destination</p>
+        </div>
+      </div>
+      <div class="grow flex flex-row gap-2 items-center bg-gray-100 rounded-lg px-3 py-2">
+        <img class="h-6" src="/asset/png-icons/calendar-icon.png" alt="icon">
+        <div class="flex flex-col">
+          <p class="text-sm font-semibold text-black-2  mt-[-4px]">Dates</p>
+          <p class="text-xs text-Gray-6  mt-[-2px]">dd/mm/yyyy</p>
+        </div>
+      </div>
+      <div class="grow flex flex-row gap-2 items-center bg-gray-100 rounded-lg px-3 py-2">
+        <img class="h-6" src="/asset/png-icons/iprofile-icon.png" alt="icon">
+        <div class="flex flex-col">
+          <p class="text-sm font-semibold text-black-2  mt-[-4px]">Who</p>
+          <p class="text-xs text-Gray-6  mt-[-2px]">0 Male ,0 Female </p>
+        </div>
+      </div>
+      <div class="grow flex flex-row gap-2 items-center bg-gray-100 rounded-lg px-3 py-2">
+        <img class="h-6" src="/asset/png-icons/category-icon.png" alt="icon">
+        <div class="flex flex-col">
+          <p class="text-sm font-semibold text-black-2  mt-[-4px]">Classes</p>
+          <p class="text-xs text-Gray-6  mt-[-2px]">budget</p>
+        </div>
+      </div>
+      <div class="flex items-center rounded-lg overflow-hidden text-lg text-gray-50">
+        <button class="bg-yellow-300 text-white w-full h-full font-medium px-3 py-2 text-base">Search</button>
+      </div>
+    </section>
+    <!-- Popular package section -->
+    <section class="flex flex-col gap-4 font-noto mx-32">
+      <div class="flex w-full justify-between ">
+        <h1 class="text-2xl font-medium text-black-3">Popular packages</h1>
+      </div>
+      <div class="flex flex-row gap-4 relative">
+        <!-- Navication taggles -->
+        <div
+          class="absolute flex flex-row w-[104%] mr-[-2%] ml-[-2%] justify-between  z-10 h-1/3 top-1/3 bottom-1/3 items-center">
+          <div class="w-12 flex justify-center items-center h-12 bg-Gray-1/90 drop-shadow-xl rounded-full">
+            <img class="h-4 ml-[-0.1rem]" src="/asset/icon/arrow-Vector-left.svg" alt="arrow">
+          </div>
+          <div class="w-12 flex justify-center items-center h-12 bg-Gray-1/90 drop-shadow-xl rounded-full">
+            <img class="h-4 mr-[-0.1rem]" src="/asset/icon/arrow-Vector-right.svg" alt="arrow">
+          </div>
+        </div>
+        <div class="flex flex-col w-1/4 gap-3 border-[0.6px] p-3 rounded-xl ">
+          <div class="relative">
+            <img class="w-full" src="/asset/papular-plans/india.jpg" alt="india">
+            <div style="border-top-right-radius: 24px" ;
+              class="absolute w-10 h-10 bg-Gray-1/90 flex justify-center items-center right-3 top-3 rounded-b-full rounded-l-full">
+              <img class="h-5" src="/asset/icon/share-icon.svg" alt="share">
+            </div>
+          </div>
+          <div class="flex flex-row justify-between">
+            <div class="flex flex-row items-center gap-1">
+              <img class="w-5" src="/asset/png-icons/location-icon.png" alt="">
+              <p class="text-base text-black-3">India</p>
+            </div>
+            <p
+              class="bg-Gray-2 text-black-3 rounded-lg px-3 pt-1 pb-2 flex justify-center items-center text-sm font-semibold">
+              90 touryys</p>
+          </div>
+        </div>
+        <div class="flex flex-col w-1/4 gap-3 border-[0.6px] p-3 rounded-xl ">
+          <div class="relative">
+            <img class="w-full" src="/asset/papular-plans/america.jpg" alt="india">
+            <div
+              class="absolute w-10 h-10 bg-Gray-1/90 flex justify-center items-center right-3 top-3 rounded-b-full rounded-l-full">
+              <img class="h-5" src="/asset/icon/share-icon.svg" alt="share">
+            </div>
+          </div>
+          <div class="flex flex-row justify-between">
+            <div class="flex flex-row items-center gap-1 ">
+              <img class="w-5" src="/asset/png-icons/location-icon.png" alt="">
+              <p class="text-base text-black-3">America</p>
+            </div>
+            <p
+              class="bg-Gray-2 text-black-3 rounded-lg px-3 pt-1 pb-2 flex justify-center items-center text-sm font-semibold">
+              90 touryys</p>
+          </div>
+        </div>
+        <div class="flex flex-col w-1/4 gap-3 border-[0.6px] p-3 rounded-xl ">
+          <div class="relative">
+            <img class="w-full" src="/asset/papular-plans/africa.jpg" alt="india">
+            <div
+              class="absolute w-10 h-10 bg-Gray-1/90 flex justify-center items-center right-3 top-3 rounded-bl-full rounded-br-full rounded-tl-full rounded-tr-">
+              <img class="h-5" src="/asset/icon/share-icon.svg" alt="share">
+            </div>
+          </div>
+          <div class="flex flex-row justify-between">
+            <div class="flex flex-row items-center gap-1 ">
+              <img class="w-5" src="/asset/png-icons/location-icon.png" alt="">
+              <p class="text-base text-black-3">Africa</p>
+            </div>
+            <p
+              class="bg-Gray-2 text-black-3 rounded-lg px-3 pt-1 pb-2 flex justify-center items-center text-sm font-semibold">
+              90 touryys</p>
+          </div>
+        </div>
+        <div class="flex flex-col w-1/4 gap-3 border-[0.6px] p-3 rounded-xl ">
+          <div class="relative">
+            <img class="w-full" src="/asset/papular-plans/japan.jpg" alt="india">
+            <div
+              class="absolute w-10 h-10 bg-Gray-1/90 flex justify-center items-center right-3 top-3 rounded-bl-full rounded-br-full rounded-tl-full rounded-tr-">
+              <img class="h-5" src="/asset/icon/share-icon.svg" alt="share">
+            </div>
+          </div>
+          <div class="flex flex-row justify-between">
+            <div class="flex flex-row items-center gap-1 ">
+              <img class="w-5" src="/asset/png-icons/location-icon.png" alt="">
+              <p class="text-base text-black-3">Japan</p>
+            </div>
+            <p
+              class="bg-Gray-2 text-black-3 rounded-lg px-3 pt-1 pb-2 flex justify-center items-center text-sm font-semibold">
+              90 touryys</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Trending designations -->
+    <section class="flex flex-col gap-4 font-noto mx-32">
+      <div class="flex w-full justify-between">
+        <h1 class="text-2xl font-medium text-black-3">Trending designations</h1>
+      </div>
+      <div class="flex flex-row gap-4 relative">
+        <div
+          class="absolute flex flex-row w-[104%] mr-[-2%] ml-[-2%] justify-between z-10 h-1/3 top-1/3 bottom-1/3 items-center">
+          <div class="w-12 flex justify-center items-center h-12 bg-Gray-1/90 drop-shadow-xl rounded-full">
+            <img class="h-4 ml-[-0.1rem]" src="/asset/icon/arrow-Vector-left.svg" alt="arrow">
+          </div>
+          <div class="w-12 flex justify-center items-center h-12 bg-Gray-1/90 drop-shadow-xl rounded-full">
+            <img class="h-4 mr-[-0.1rem]" src="/asset/icon/arrow-Vector-right.svg" alt="arrow">
+          </div>
+        </div>
+        <div class="flex flex-col w-1/4 gap-3 border-[0.6px] p-3 rounded-xl ">
+          <div class="relative">
+            <img class="w-full" src="/asset/papular-plans/Dubai.jpg" alt="india">
+            <div
+              class="absolute w-10 h-10 bg-Gray-1/90 flex justify-center items-center right-3 top-3 rounded-bl-full rounded-br-full rounded-tl-full rounded-tr-">
+              <img class="h-5" src="/asset/icon/share-icon.svg" alt="share">
+            </div>
+          </div>
+          <div class="flex flex-row justify-between">
+            <div class="flex flex-row items-center gap-1 ">
+              <img class="w-5" src="/asset/png-icons/location-icon.png" alt="">
+              <p class="text-base text-black-3">Dubai</p>
+            </div>
+            <p
+              class="bg-Gray-2 text-black-3 rounded-lg px-3 pt-1 pb-2 flex justify-center items-center text-sm font-semibold">
+              90 touryys</p>
+          </div>
+        </div>
+        <div class="flex flex-col w-1/4 gap-3 border-[0.6px] p-3 rounded-xl ">
+          <div class="relative">
+            <img class="w-full" src="/asset/papular-plans/bali.jpg" alt="india">
+            <div
+              class="absolute w-10 h-10 bg-Gray-1/90 flex justify-center items-center right-3 top-3 rounded-bl-full rounded-br-full rounded-tl-full rounded-tr-">
+              <img class="h-5" src="/asset/icon/share-icon.svg" alt="share">
+            </div>
+          </div>
+          <div class="flex flex-row justify-between">
+            <div class="flex flex-row items-center gap-1 ">
+              <img class="w-5" src="/asset/png-icons/location-icon.png" alt="">
+              <p class="text-base text-black-3">Bali</p>
+            </div>
+            <p
+              class="bg-Gray-2 text-black-3 rounded-lg px-3 pt-1 pb-2 flex justify-center items-center text-sm font-semibold">
+              90 touryys</p>
+          </div>
+        </div>
+        <div class="flex flex-col w-1/4 gap-3 border-[0.6px] p-3 rounded-xl ">
+          <div class="relative">
+            <img class="w-full" src="/asset/papular-plans/london.jpg" alt="india">
+            <div
+              class="absolute w-10 h-10 bg-Gray-1/90 flex justify-center items-center right-3 top-3 rounded-bl-full rounded-br-full rounded-tl-full rounded-tr-">
+              <img class="h-5" src="/asset/icon/share-icon.svg" alt="share">
+            </div>
+          </div>
+          <div class="flex flex-row justify-between">
+            <div class="flex flex-row items-center gap-1 ">
+              <img class="w-5" src="/asset/png-icons/location-icon.png" alt="">
+              <p class="text-base text-black-3">London</p>
+            </div>
+            <p
+              class="bg-Gray-2 text-black-3 rounded-lg px-3 pt-1 pb-2 flex justify-center items-center text-sm font-semibold">
+              90 touryys</p>
+          </div>
+        </div>
+        <div class="flex flex-col w-1/4 gap-3 border-[0.6px] p-3 rounded-xl ">
+          <div class="relative">
+            <img class="w-full" src="/asset/papular-plans/hanoi.jpg" alt="">
+            <div
+              class="absolute w-10 h-10 bg-Gray-1/90 flex justify-center items-center right-3 top-3 rounded-bl-full rounded-br-full rounded-tl-full rounded-tr-">
+              <img class="h-5" src="/asset/icon/share-icon.svg" alt="share">
+            </div>
+          </div>
+          <div class="flex flex-row justify-between">
+            <div class="flex flex-row items-center gap-1 ">
+              <img class="w-5" src="/asset/png-icons/location-icon.png" alt="">
+              <p class="text-base text-black-3">Hanoi</p>
+            </div>
+            <p
+              class="bg-Gray-2 text-black-3 rounded-lg px-3 pt-1 pb-2 flex justify-center items-center text-sm font-semibold">
+              90 touryys</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- addSection -->
+    <section>
+      <div class="flex flex-row gap-4 bg-primary-3 p-4 rounded-xl mx-32">
+        <div class="w-1/5 rounded-lg overflow-hidden">
+          <img class="h-full" src="/asset/banners/add-image-01.jpg" alt="banner-1">
+        </div>
+        <div class="w-3/5 flex flex-col justify-between">
+          <div class="flex flex-col gap-4">
+            <h2 class=" font-semibold text-2xl">Unlock seamless travels with our app</h2>
+            <ul class="text-base">
+              <li>Receive flight alerts </li>
+              <li>Access offline travel details</li>
+              <li>Conveniently message your hotel</li>
+            </ul>
+          </div>
+          <p class="text-xl font-medium">Scan the QR code with your device camera and download our app</p>
+        </div>
+        <div class="w-1/5">
+          <img class="w-full" src="/asset/banners/or-code.png" alt="QR">
+        </div>
+      </div>
+    </section>
+  </section>
+  <footer class="pt-10 bg-Gray-2 px-32 flex flex-col gap-4">
+    <div class="flex flex-row gap-8">
+      <div class="w-1/4 flex flex-col gap-4">
+        <h1 class="text-xl font-semibold"><span class="text-primary-1">hap</span>days</h1>
+        <div class="flex flex-row justify-between">
+          <div class="flex flex-row items-center gap-2">
+            <img class="w-8" src="/asset/icon/Internet.svg" alt="internet">
+            <p>English(IN)</p>
+          </div>
+          <div class="flex flex-row gap-2 border-[1px] border-gray-400 p-1 rounded-md">
+            <img class="w-8" src="/asset/icon/flag-india.svg" alt="flag">
+            <p>INR</p>
+            <img class="w-8" src="/asset/icon/arrow-down.svg" alt="arrow">
+          </div>
+        </div>
+      </div>
+      <div class="w-1/4 flex flex-col gap-4">
+        <h1 class="text-xl font-semibold">Company</h1>
+        <div class="flex flex-col">
+          <a href="">Jobs</a>
+          <a href="">Press</a>
+          <a href="">Investor relations</a>
+          <a href="">Mobile app- searching on the go</a>
+          <a href="">Hapdays business Studio</a>
+        </div>
+      </div>
+      <div class="w-1/4 flex flex-col gap-4">
+        <h1 class="text-xl font-semibold">Help</h1>
+        <div class="flex flex-col">
+          <a href="">Learn how hapdays works</a>
+          <a href="">Terms and conditions</a>
+          <a href="">Legal information</a>
+          <a href="">Do not sell my personal information</a>
+          <a href="">Privacy notice</a>
+          <a href="">Cyber security</a>
+        </div>
+      </div>
+      <div class="w-1/4 flex justify-end ">
+        <div class="flex flex-row gap-4">
+          <img class="w-8 h-8" src="/asset/icon//twiter.svg" alt="icon">
+          <img class="w-8 h-8" src="/asset/icon/facebook-icon.svg" alt="icon">
+          <img class="w-8 h-8" src="/asset/icon/linkedin-icon.svg" alt="icon">
+          <img class="h-8 w-8" src="/asset/png-icons/instagram-icon.png" alt="icon">
+        </div>
+      </div>
+    </div>
+    <div class="flex flex-row gap-6 font-noto font-medium text-Gray-6 text-sm">
+      <a href="">© 2024 Hapdays , inc.</a>
+      <a href="">Privacy</a>
+      <a href="">Terms</a>
+      <a href="">Company details</a>
+      <a href="">Sitemap</a>
+    </div>
+  </footer>
+</body>
+
+</html>

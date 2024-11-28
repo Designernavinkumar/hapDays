@@ -1,0 +1,14 @@
+{
+  "name": "hapdays",
+  "version": "1.0.0",
+  "description": "hapdays is blackchain based logistices responsive wesite",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "navin_kumar_designer",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.15"
+  }
+}
