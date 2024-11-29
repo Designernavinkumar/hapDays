@@ -17,11 +17,11 @@
   <!-- main section -->
   <section class=" flex flex-col gap-5 ">
     <!-- header section -->
-    <header class="flex flex-row justify-between py-4 sticky mx-32">
+    <header class="flex flex-row justify-between py-4 sticky mx-3 sm:mx-4 md:mx-10 lg:mx-32">
       <div class="flex grow items-center">
         <img class="h-10" src="/asset/png-icons/logo-hapdays.png" alt="logo">
       </div>
-      <div class="flex grow justify-center items-center font-noto font-medium text-xl">
+      <div class=" hidden lg:flex grow justify-center items-center font-noto font-medium text-xl">
         <ul class="list-none flex gap-6 font-normal text-base text-black-2">
           <li>Home</li>
           <li>Package</li>
@@ -30,16 +30,19 @@
           <li>About</li>
         </ul>
       </div>
-      <div class="flex flex-row grow justify-end items-center gap-4">
+      <div class="hidden lg:flex flex-row grow justify-end items-center gap-4">
         <img class="w-7" src="/asset/icon/Internet.svg" alt="language">
         <div class="rounded-full overflow-hidden bg-cover">
           <img class="w-17" src="/asset/Profile-img/profile-image.jpg" alt="profile">
         </div>
       </div>
+      <div class="lg:hidden flex items-center justify-center">
+        <img src="/asset/icon/menu-icon.svg" alt="menu_icon" >
+      </div>
     </header>
     <!-- Search Main service section -->
     <section
-      class="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-2 lg:grid-cols-7 border-[0.6px] border-Gray-3 p-3 rounded-2xl gap-3 font-noto mx-16">
+      class="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-2 lg:grid-cols-7 border-[0.6px] border-Gray-3 p-3 rounded-2xl gap-3 font-noto mx-4 sm:mx-4 md:mx-5 lg:mx-16 xl:mx-20 ">
       <div class="grow flex flex-row gap-2 items-center bg-gray-100 rounded-lg px-3 py-2">
         <img class="h-6" src="/asset/png-icons/hap-icon.png" alt="icon">
         <div class="flex flex-col">
@@ -82,7 +85,7 @@
           <p class="text-xs text-Gray-6  mt-[-2px]">budget</p>
         </div>
       </div>
-      <div class="flex items-center rounded-lg overflow-hidden text-lg text-gray-50">
+      <div class="flex items-center rounded-lg overflow-hidden text-lg text-gray-50 sm:col-span-3 md:col-span-2 lg:col-auto ">
         <button class="bg-yellow-300 text-white w-full h-full font-medium px-3 py-2 text-base">Search</button>
       </div>
     </section>
