@@ -10,5 +10,9 @@
   "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.4.15"
+  },
+  "dependencies": {
+    "postcss": "^8.4.49",
+    "postcss-cli": "^11.0.0"
   }
 }
