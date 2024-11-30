@@ -28,7 +28,7 @@ const cardDesign1 = [
   ];
   cardDesign1.map((e) =>{
     document.write(`
-      <div class="flex flex-col max-w-44 min-w-44 gap-3 border-[0.6px] p-2 rounded-xl sm:p-3 lg:p-3 sm:max-w-48 sm:min-w-48 md:max-w-60 md:min-w-60 lg:max-w-64 lg:min-w-64">
+      <div class="flex flex-col max-w-60 min-w-60 gap-3 border-[0.6px] p-2 rounded-xl sm:p-3 lg:p-3 sm:max-w-60 sm:min-w-60 md:max-w-60 md:min-w-60 lg:max-w-64 lg:min-w-64">
           <div class="relative">
             <img class="w-full" src="${e.imgUrl}">
             <div style="border-top-right-radius: 24px" ;
