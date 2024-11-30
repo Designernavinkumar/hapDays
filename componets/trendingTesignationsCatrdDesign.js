@@ -1,31 +1,29 @@
-document.getElementById("cardDesign").innerHTML="navin"
 
-    const cardDesign = [
+const cardDesign1 = [
     {
-      imgUrl : '/asset/papular-plans/india.jpg',
-      contry : 'India',
-      packages : '90 Package',
+      imgUrl : '/asset/papular-plans/london.jpg',
+      contry : 'London',
+      packages : '12 Days',
     },
     {
-      imgUrl : '/asset/papular-plans/india.jpg',
-      contry : 'India',
-      packages : '90 Package',
+      imgUrl : '/asset/papular-plans/japan.jpg',
+      contry : 'Japan',
+      packages : '1 Week',
     },
     {
-      imgUrl : '/asset/papular-plans/india.jpg',
-      contry : 'India',
-      packages : '90 Package',
+      imgUrl : '/asset/papular-plans/hanoi.jpg',
+      contry : 'Hanoi',
+      packages : '17 Days',
     },
     {
-      imgUrl : '/asset/papular-plans/india.jpg',
-      contry : 'India',
-      packages : '90 Package',
-    }
+      imgUrl : '/asset/papular-plans/bali.jpg',
+      contry : 'Bali',
+      packages : '1 Month',
+    },
   ];
-  
- document.getElementById("cardDesign") = cardDesign.map((e) =>{
+  cardDesign1.map((e) =>{
     document.write(`
-        <div class="flex flex-col w-1/4 gap-3 border-[0.6px] p-3 rounded-xl ">
+        <div class="flex flex-col w-1/4 gap-3 border-[0.6px] p-3 rounded-xl">
             <div class="relative">
               <img class="w-full" src="${e.imgUrl}">
               <div style="border-top-right-radius: 24px" ;
@@ -44,4 +42,4 @@ document.getElementById("cardDesign").innerHTML="navin"
             </div>
           </div>
         `)
- })
+ });

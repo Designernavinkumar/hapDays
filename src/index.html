@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="./output.css">
-  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+  <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
@@ -98,7 +98,7 @@
       <div class="flex w-full justify-between">
         <h1 class="text-2xl font-medium text-black-3">Popular packages</h1>
       </div>
-      <div class="flex flex-row gap-4 relative">
+      <div class="flex flex-row gap-4 relative overflow-hidden">
 
         <!-- Navication taggles -->
 
@@ -111,84 +111,7 @@
             <img class="h-4 mr-[-0.1rem]" src="/asset/icon/arrow-Vector-right.svg" alt="arrow">
           </div>
         </div>
-        
-        <!-- card_design -->
-
-        <div class="flex flex-col w-1/4 gap-3 border-[0.6px] p-3 rounded-xl ">
-          <div class="relative">
-            <img class="w-full" src="/asset/papular-plans/india.jpg" alt="india">
-            <div style="border-top-right-radius: 24px" ;
-              class="absolute w-10 h-10 bg-Gray-1/90 flex justify-center items-center right-3 top-3 rounded-b-full rounded-l-full">
-              <img class="h-5" src="/asset/icon/share-icon.svg" alt="share">
-            </div>
-          </div>
-          <div class="flex flex-row justify-between">
-            <div class="flex flex-row items-center gap-1">
-              <img class="w-5" src="/asset/png-icons/location-icon.png" alt="">
-              <p class="text-base text-black-3">India</p>
-            </div>
-            <p
-              class="bg-Gray-2 text-black-3 rounded-lg px-3 pt-1 pb-2 flex justify-center items-center text-sm font-semibold">
-              90 touryys</p>
-          </div>
-        </div>
-
-        <!-- card_design -->
-
-        <div class="flex flex-col w-1/4 gap-3 border-[0.6px] p-3 rounded-xl ">
-          <div class="relative">
-            <img class="w-full" src="/asset/papular-plans/america.jpg" alt="india">
-            <div
-              class="absolute w-10 h-10 bg-Gray-1/90 flex justify-center items-center right-3 top-3 rounded-b-full rounded-l-full">
-              <img class="h-5" src="/asset/icon/share-icon.svg" alt="share">
-            </div>
-          </div>
-          <div class="flex flex-row justify-between">
-            <div class="flex flex-row items-center gap-1 ">
-              <img class="w-5" src="/asset/png-icons/location-icon.png" alt="">
-              <p class="text-base text-black-3">America</p>
-            </div>
-            <p
-              class="bg-Gray-2 text-black-3 rounded-lg px-3 pt-1 pb-2 flex justify-center items-center text-sm font-semibold">
-              90 touryys</p>
-          </div>
-        </div>
-        <div class="flex flex-col w-1/4 gap-3 border-[0.6px] p-3 rounded-xl ">
-          <div class="relative">
-            <img class="w-full" src="/asset/papular-plans/africa.jpg" alt="india">
-            <div
-              class="absolute w-10 h-10 bg-Gray-1/90 flex justify-center items-center right-3 top-3 rounded-bl-full rounded-br-full rounded-tl-full rounded-tr-">
-              <img class="h-5" src="/asset/icon/share-icon.svg" alt="share">
-            </div>
-          </div>
-          <div class="flex flex-row justify-between">
-            <div class="flex flex-row items-center gap-1 ">
-              <img class="w-5" src="/asset/png-icons/location-icon.png" alt="">
-              <p class="text-base text-black-3">Africa</p>
-            </div>
-            <p
-              class="bg-Gray-2 text-black-3 rounded-lg px-3 pt-1 pb-2 flex justify-center items-center text-sm font-semibold">
-              90 touryys</p>
-          </div>
-        </div>
-        <div class="flex flex-col w-1/4 gap-3 border-[0.6px] p-3 rounded-xl ">
-          <div class="relative">
-            <img class="w-full" src="/asset/papular-plans/japan.jpg" alt="india">
-            <div
-              class="absolute w-10 h-10 bg-Gray-1/90 flex justify-center items-center right-3 top-3 rounded-bl-full rounded-br-full rounded-tl-full rounded-tr-">
-              <img class="h-5" src="/asset/icon/share-icon.svg" alt="share">
-            </div>
-          </div>
-          <div class="flex flex-row justify-between">
-            <div class="flex flex-row items-center gap-1 ">
-              <img class="w-5" src="/asset/png-icons/location-icon.png" alt="">
-              <p class="text-base text-black-3">Japan</p>
-            </div>
-            <p
-              class="bg-Gray-2 text-black-3 rounded-lg px-3 pt-1 pb-2 flex justify-center items-center text-sm font-semibold">
-              90 touryys</p>
-          </div>
-        </div>
+        <script src="/componets/popularPackagesCardDesign.js"></script>
       </div>
     </section>
     <!-- Trending designations -->
@@ -206,78 +129,7 @@
             <img class="h-4 mr-[-0.1rem]" src="/asset/icon/arrow-Vector-right.svg" alt="arrow">
           </div>
         </div>
-        <div class="flex flex-col w-1/4 gap-3 border-[0.6px] p-3 rounded-xl ">
-          <div class="relative">
-            <img class="w-full" src="/asset/papular-plans/Dubai.jpg" alt="india">
-            <div
-              class="absolute w-10 h-10 bg-Gray-1/90 flex justify-center items-center right-3 top-3 rounded-bl-full rounded-br-full rounded-tl-full rounded-tr-">
-              <img class="h-5" src="/asset/icon/share-icon.svg" alt="share">
-            </div>
-          </div>
-          <div class="flex flex-row justify-between">
-            <div class="flex flex-row items-center gap-1 ">
-              <img class="w-5" src="/asset/png-icons/location-icon.png" alt="">
-              <p class="text-base text-black-3">Dubai</p>
-            </div>
-            <p
-              class="bg-Gray-2 text-black-3 rounded-lg px-3 pt-1 pb-2 flex justify-center items-center text-sm font-semibold">
-              90 touryys</p>
-          </div>
-        </div>
-        <div class="flex flex-col w-1/4 gap-3 border-[0.6px] p-3 rounded-xl ">
-          <div class="relative">
-            <img class="w-full" src="/asset/papular-plans/bali.jpg" alt="india">
-            <div
-              class="absolute w-10 h-10 bg-Gray-1/90 flex justify-center items-center right-3 top-3 rounded-bl-full rounded-br-full rounded-tl-full rounded-tr-">
-              <img class="h-5" src="/asset/icon/share-icon.svg" alt="share">
-            </div>
-          </div>
-          <div class="flex flex-row justify-between">
-            <div class="flex flex-row items-center gap-1 ">
-              <img class="w-5" src="/asset/png-icons/location-icon.png" alt="">
-              <p class="text-base text-black-3">Bali</p>
-            </div>
-            <p
-              class="bg-Gray-2 text-black-3 rounded-lg px-3 pt-1 pb-2 flex justify-center items-center text-sm font-semibold">
-              90 touryys</p>
-          </div>
-        </div>
-        <div class="flex flex-col w-1/4 gap-3 border-[0.6px] p-3 rounded-xl ">
-          <div class="relative">
-            <img class="w-full" src="/asset/papular-plans/london.jpg" alt="india">
-            <div
-              class="absolute w-10 h-10 bg-Gray-1/90 flex justify-center items-center right-3 top-3 rounded-bl-full rounded-br-full rounded-tl-full rounded-tr-">
-              <img class="h-5" src="/asset/icon/share-icon.svg" alt="share">
-            </div>
-          </div>
-          <div class="flex flex-row justify-between">
-            <div class="flex flex-row items-center gap-1 ">
-              <img class="w-5" src="/asset/png-icons/location-icon.png" alt="">
-              <p class="text-base text-black-3">London</p>
-            </div>
-            <p
-              class="bg-Gray-2 text-black-3 rounded-lg px-3 pt-1 pb-2 flex justify-center items-center text-sm font-semibold">
-              90 touryys</p>
-          </div>
-        </div>
-        <div class="flex flex-col w-1/4 gap-3 border-[0.6px] p-3 rounded-xl ">
-          <div class="relative">
-            <img class="w-full" src="/asset/papular-plans/hanoi.jpg" alt="">
-            <div
-              class="absolute w-10 h-10 bg-Gray-1/90 flex justify-center items-center right-3 top-3 rounded-bl-full rounded-br-full rounded-tl-full rounded-tr-">
-              <img class="h-5" src="/asset/icon/share-icon.svg" alt="share">
-            </div>
-          </div>
-          <div class="flex flex-row justify-between">
-            <div class="flex flex-row items-center gap-1 ">
-              <img class="w-5" src="/asset/png-icons/location-icon.png" alt="">
-              <p class="text-base text-black-3">Hanoi</p>
-            </div>
-            <p
-              class="bg-Gray-2 text-black-3 rounded-lg px-3 pt-1 pb-2 flex justify-center items-center text-sm font-semibold">
-              90 touryys</p>
-          </div>
-        </div>
+        <script src="/componets/trendingTesignationsCatrdDesign.js"></script>
       </div>
     </section>
     <!-- addSection -->
